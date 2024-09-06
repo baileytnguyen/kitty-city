@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .feed-card {
+      margin-bottom: 30px; /* Adds spacing between cards */
+    }
+
+    .feed-card img {
+      width: 100%; /* Make the image fill the card */
+      height: auto;
+      object-fit: cover; /* Ensures the image aspect ratio is maintained */
+    }
+
+    .feed-card .card-body {
+      padding: 15px;
+    }
+  </style>
+  <title>Instagram-like Vertical Image Feed</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-8 col-sm-12">
+        <!-- Image Post 1 -->
+        <div class="card feed-card">
+          <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Image 1">
+          <div class="card-body">
+            <p class="card-text">This is a beautiful post caption.</p>
+          </div>
+        </div>
+
+        <!-- Image Post 2 -->
+        <div class="card feed-card">
+          <img src="https://via.placeholder.com/600x700" class="card-img-top" alt="Image 2">
+          <div class="card-body">
+            <p class="card-text">Another cool caption for this post.</p>
+          </div>
+        </div>
+
+        <!-- Image Post 3 -->
+        <div class="card feed-card">
+          <img src="https://via.placeholder.com/600x800" class="card-img-top" alt="Image 3">
+          <div class="card-body">
+            <p class="card-text">Loving this view!</p>
+          </div>
+        </div>
+
+        <!-- Add more image posts as needed -->
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
